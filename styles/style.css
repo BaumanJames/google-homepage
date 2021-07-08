@@ -61,15 +61,15 @@ ul{
 }
 .bar{
     text-align: center;
-    border: black;
-    border-width: ;
-    border-radius: 20px;
+    margin-bottom: 20px; 
 }
 
 .search{
-    border-radius: 15px;
-    height: 20px;
-    
+    border-radius: 115px;
+    padding: 9px 100px ;
+    font-size: 18px;
+    border-width: 1px;
+    border-color: lightgrey;
 }
 
 .butts{
