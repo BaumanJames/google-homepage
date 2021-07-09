@@ -30,7 +30,7 @@ ul{
   overflow: hidden;
 }
 
-.material-icons{
+.apps{
     position: absolute;
     top: 13px;
     left: 89%;
@@ -65,18 +65,26 @@ ul{
 }
 
 .search{
+    border: 1px solid #ddd;
     border-radius: 115px;
     padding: 9px 100px ;
     font-size: 18px;
-    border-width: 1px;
-    border-color: lightgrey;
-}
 
+}
+.input{
+    border: none;
+    outline: none;
+    width: 50%;
+}
 .butts{
     text-align: center;
     
 }
-
+.button:hover {
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 1px 1px 6px -3.5px;
+}
 .button{
     text-align: center;
     color: #5F6368;
@@ -89,6 +97,8 @@ ul{
     height: 36px;
     min-width: 54px;
 }
+
+
 
 li a {
     display: block;
